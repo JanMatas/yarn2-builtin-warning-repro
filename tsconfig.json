@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es2015", "es2016", "es2017", "dom", "ESNext"],
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "allowJs": true,
+    "baseUrl": "."
+  },
+  "include": ["index.ts"]
+}
+
